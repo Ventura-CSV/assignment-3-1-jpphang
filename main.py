@@ -11,6 +11,10 @@ def main():
     ########################################
     """
 
+    print(f"number1:{number1}")
+    print(f"number2:{number2}")
+    print(f"number3:{number3}")
+    
     if number1 < number2 and number1 < number3:
         min_value = number1
         
