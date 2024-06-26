@@ -11,6 +11,13 @@ def main():
     ########################################
     """
 
+    if number1 < number2 and number1 < number3:
+        min_value = number1
+        
+    elif number2 < number1 and number2 < number3:
+        min_value = number2
+        
+
     ########################################
     # Do not delete the return statement
     ########################################
