@@ -16,7 +16,11 @@ def main():
         
     elif number2 < number1 and number2 < number3:
         min_value = number2
+    
+    elif number3 < number1 and number3 < number2:
+        min_value = number3
         
+    pint(f'min_value:'{min_value})                
 
     ########################################
     # Do not delete the return statement
