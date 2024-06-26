@@ -20,7 +20,7 @@ def main():
     elif number3 < number1 and number3 < number2:
         min_value = number3
         
-    pint(f'min_value:'{min_value})                
+    print(f'min_value:{min_value}')                
 
     ########################################
     # Do not delete the return statement
